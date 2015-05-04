@@ -1,0 +1,6 @@
+1. ./runalltests.py will test all unit tests.
+2. stub_server/file_service.py is used as the stub server during the tests.
+3. If you are running testAPIClient or runalltests, please run "sudo bash"  and "exit"
+   to allow bash session to get the temporary root previlege. This is because testAPIClient
+   uses "iptables" to enable/disable network during the tests. For details, refer to file
+   "testAPIClient".

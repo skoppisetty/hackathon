@@ -1,0 +1,1 @@
+This Makefile assumes a sibling directory called ``DataIngestion-doc`` is placed along with this repo.
