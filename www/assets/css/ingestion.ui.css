@@ -1,0 +1,30 @@
+.text-centered {
+  text-align: center
+}
+
+.dropdown-menu a {
+  display: inline;
+}
+
+.dropdown-menu a:nth-child(2) {
+  color: #08C
+}
+
+.js-required {
+  /* This content made visible through ingestion.ui.js */
+  display: none;
+}
+
+.dropdown-menu {
+    position: inherit;
+}
+
+div.blockPage {
+  width:  100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  text-align: center;
+}

@@ -1,5 +1,4 @@
 import sys
-
 sys.path.append('.')
 
 BROKER_URL = 'redis://localhost:6379/'
@@ -17,4 +16,4 @@ CELERY_ACCEPT_CONTENT = ['pickle']
 CELERY_TASK_SERIALIZER = 'pickle'
 CELERY_RESULT_SERIALIZER = 'pickle'
 
-CELERY_IMPORTS = ()
+CELERY_IMPORTS = ("dataingestion.services.manager.celery_handler", )
